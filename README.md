@@ -1,4 +1,4 @@
-**SourceCraft AI 🚀**
+# SourceCraft AI 🚀
 
 The Tool-Grounded Article Generator
 
@@ -49,23 +49,23 @@ Bash
 
 cd backend
 
-# 1. Create a virtual environment
+**1. Create a virtual environment**
 python -m venv venv
 
-# 2. Activate the virtual environment
+**2. Activate the virtual environment**
 Windows:
 venv\Scripts\activate
 
-# 3. Install dependencies
+**3. Install dependencies**
 pip install -r requirements.txt
 Create a .env file in the backend/ folder:
 
 Code snippet
 
-# Get a free key at https://console.groq.com
+**Get a free key at https://console.groq.com**
 GROQ_API_KEY=your_actual_groq_api_key_here
 
-# Security settings (can be anything for local dev)
+**Security settings (can be anything for local dev)**
 SECRET_KEY=supersecretkey123
 ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=60
@@ -76,17 +76,17 @@ Bash
 uvicorn main:app --reload
 Server will start at http://127.0.0.1:8000
 
-2. Frontend Setup
+**2. Frontend Setup**
 Open a new terminal and navigate to the frontend folder.
 
 Bash
 
 cd frontend
 
-# 1. Install Node dependencies
+**1. Install Node dependencies**
 npm install
 
-# 2. Run the development server
+**2. Run the development server**
 npm run dev
 Frontend will start at http://localhost:3000
 
